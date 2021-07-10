@@ -118,7 +118,7 @@ class MainActivity : AppCompatActivity() {
                 val input = ExpressionBuilder(edt.text.toString()).build() // lấy giá trị
                 val output = input.evaluate() // tính
                 val longOutput = output.toLong()// to long
-                Log.e("aaa", longOutput.toString())
+                Log.e("bbbb", longOutput.toString())
                 if (output == longOutput.toDouble()){
                     tview.setText( longOutput.toString())
                 }else{

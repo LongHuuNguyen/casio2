@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="7"
+    android:weightSum="12"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
         <LinearLayout
-            android:layout_weight="2"
+            android:layout_weight="4"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:weightSum="2"
@@ -36,7 +36,7 @@
         </LinearLayout>
 
     <LinearLayout
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:weightSum="2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -56,7 +56,8 @@
                 android:layout_margin="4dp"
                 android:background="@drawable/bt1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
             <Button
                 android:text="MRC"
                 android:textColor="#C5C5D1"
@@ -64,7 +65,8 @@
                 android:layout_margin="4dp"
                 android:background="@drawable/bt1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
             <Button
                 android:textColor="#C5C5D1"
                 android:text="M-"
@@ -72,7 +74,8 @@
                 android:layout_margin="4dp"
                 android:background="@drawable/bt1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
             <Button
                 android:text="M+"
                 android:textColor="#C5C5D1"
@@ -80,7 +83,8 @@
                 android:layout_margin="4dp"
                 android:background="@drawable/bt1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
             <Button
                 android:layout_weight="1"
                 android:visibility="invisible"
@@ -104,7 +108,8 @@
                 android:layout_margin="4dp"
                 android:background="@drawable/bt1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
             <Button
                 android:text="√"
                 android:textColor="#C5C5D1"
@@ -112,7 +117,9 @@
                 android:layout_margin="4dp"
                 android:background="@drawable/bt1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                />
             <Button
                 android:text="MC"
                 android:textColor="#C5C5D1"
@@ -120,7 +127,8 @@
                 android:layout_margin="4dp"
                 android:background="@drawable/bt1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
             <Button
                 android:text="MR"
                 android:textColor="#C5C5D1"
@@ -128,17 +136,19 @@
                 android:layout_margin="4dp"
                 android:background="@drawable/bt1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
             <Button
                 android:id="@+id/chia"
                 android:text="÷"
                 android:textColor="#C5C5D1"
-                android:textSize="25dp"
                 android:layout_weight="1"
                 android:layout_margin="4dp"
                 android:background="@drawable/bt1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                />
 
         </LinearLayout>
 
@@ -147,7 +157,7 @@
 
     </LinearLayout>
     <LinearLayout
-        android:layout_weight="4"
+        android:layout_weight="6"
         android:weightSum="5"
         android:layout_width="match_parent"
         android:layout_height="0dp"
